@@ -80,7 +80,7 @@ Pair to the module from your host device, once you have paired with your bluetoo
 
 Note: How to find X in COMX (Port Number); 
 
-Control Panel > Settings > Bluetooth & Other Devices > More Bluetooth Options > COM Ports > Direction::Outgoing 
+<span style="color: grey"> Control Panel > Settings > Bluetooth & Other Devices > More Bluetooth Options > COM Ports > Direction::Outgoing  </span>
 
 ![alt text](Find_COMX.jpg)
 
