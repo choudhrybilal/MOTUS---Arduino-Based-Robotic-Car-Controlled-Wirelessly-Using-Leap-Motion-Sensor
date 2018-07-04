@@ -127,7 +127,7 @@ Control Panel > Leap Motion Control Panel > Settings > General
 Run > Node.js Command Prompt > cd "DIRECTORY" > node MOTUS.js
 ```
 
-ENJOY J.
+## ENJOY J.
 
 ![alt text](MOTUS_Test.jpg)
 
