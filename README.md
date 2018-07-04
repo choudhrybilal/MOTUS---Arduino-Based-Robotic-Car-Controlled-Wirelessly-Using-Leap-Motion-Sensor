@@ -90,5 +90,10 @@ Control Panel > Device Manager > Ports (COM & LPT) > Standard Serial Over Blueto
 
 ![alt text](Computer_BT_BPS.jpg)
 
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
+
 
 
