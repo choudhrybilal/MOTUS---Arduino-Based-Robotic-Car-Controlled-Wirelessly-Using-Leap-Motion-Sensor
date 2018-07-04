@@ -2,7 +2,21 @@
 
 ## Abstract
 
-Motus is a robotic three wheeler vehicle built using 2-DC brushless 4 volt motors, Arduino UNO microcontroller, micro servo SG90 motor, caster wheel/directional wheel, and a turning mechanism controlled using Leap Motion Controller. The system can be consolidated into three components: Leap motion create VR-Virtual Reality environment, circuit proceeds and transmits signals, and the DC motors and servo motors provides the feedback. All signals transmit through the bluetooth module HC-05 connected to Arduino UNO microcontroller along with the laptop’s bluetooth. The system involves the use of both software and hardware. A 12 volt DC lithium ion rechargeable battery is the only source of power. The Motus enhances the human interaction with hardware experience in the real world.
+Motus is a robotic three wheeler vehicle with a turning mechanism controlled using Leap Motion Controller. The system can be consolidated into three components: Leap motion creates VR-Virtual Reality environment, circuit proceeds and transmits signals, and the DC motors and servo motors provides the feedback. All signals transmit through the bluetooth module HC-05 connected to Arduino UNO microcontroller along with the laptop’s bluetooth. This system involves the use of both software and hardware. A 12 volt DC lithium ion rechargeable battery pack is the only source of power. The Motus enhances the human interaction with hardware experience in the real world.
+
+COMPONENTS:
+
+1. RC Car Chasis
+2. Leap Motion Controller
+3. Microcontroller (Arduino UNO)
+4. 2 x DC Brushless Motors
+5. 2 x Small Size Wheels
+6. Directional Wheel
+7. Micro Servo Motor (SG90)
+8. Bluetooth Module (HC-05)
+9. 12 Volts Lithium Ion Rechargeable Battery Pack 
+10. Mini Breadboard Stick
+11. Male,Female Connection Jumpers 
 
 
 ## Step 01
@@ -93,6 +107,8 @@ Control Panel > Device Manager > Ports (COM & LPT) > Standard Serial Over Blueto
 ```
 
 ![alt text](Computer_BT_BPS.jpg)
+
+
 
 
 
