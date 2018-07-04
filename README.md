@@ -80,20 +80,21 @@ Pair to the module from your host device, once you have paired with your bluetoo
 
 Note: How to find X in COMX (Port Number); 
 
-<font color="red"> Control Panel > Settings > Bluetooth & Other Devices > More Bluetooth Options > COM Ports > Direction::Outgoing </font>
+```diff
+Control Panel > Settings > Bluetooth & Other Devices > More Bluetooth Options > COM Ports > Direction::Outgoing
+```
 
 ![alt text](Find_COMX.jpg)
 
 Note: Adjust computer's bluetooth baudrate that you found out for your device in step 04.
 
+```diff
 Control Panel > Device Manager > Ports (COM & LPT) > Standard Serial Over Bluetooth Link (COM4) : Run as Administrator > Port Settings > Bits per Seconds > '57600' - Johny Five Socket Speed
+```
 
 ![alt text](Computer_BT_BPS.jpg)
 
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-```
+
 
 
 
