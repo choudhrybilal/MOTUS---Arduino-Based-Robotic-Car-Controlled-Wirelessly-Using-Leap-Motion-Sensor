@@ -57,7 +57,7 @@ If you are having troubles uploading the firmata firmware to the device, make su
 If you want the supported commands for HC-05
 
 (HC-05 datasheet and AT commands)
-[https://www.gme.cz/data/attachments/dsh.772-148.2.pdf]; reffer to page # 20-21
+[https://www.gme.cz/data/attachments/dsh.772-148.2.pdf]; refer to page # 20-21
 
 ## Step 06
 ### Upload StandardFirmata.ino
@@ -76,8 +76,13 @@ Once the baud rate is properly set & Firmata reloaded, connect the TX and RX pin
 ## Step 08
 ### Pair the HC 05 bluetooth module with computer's bluetooth
 
-Pair to the module from your host device, once you have paired with your bluetooth device the serial port should be visible with the ROBOT_NAME (MOTUS). It will be something like /dev/tty.ROBOT_NAME-DevB (in UNIX) and use COMX in Windows (where X is the number of the port; COM4). Use this name to tell Johnny-Five which port to use.
+Pair to the module from your host device, once you have paired with your bluetooth device the serial port should be visible with the ROBOT_NAME (MOTUS). It will be something like /dev/tty.ROBOT_NAME-DevB (in UNIX) and use COMX in Windows (where X is the number of the port; COM4 in my case). Use this name to tell Johnny-Five which port to use.
 
+Note: How to find X in COMX (Port Number); 
+
+Control Panel > Settings > Bluetooth & Other Devices > More Bluetooth Options > COM Ports > Direction::Outgoing 
+
+![alt text](Find_COMX.jpg)
 
 
 
