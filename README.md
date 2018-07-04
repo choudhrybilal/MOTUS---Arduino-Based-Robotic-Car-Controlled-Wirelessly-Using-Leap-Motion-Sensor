@@ -22,6 +22,7 @@ Note: the serialport library only works with node 0.12.x
 #### Setup
 
 1 - Install nodejs
+
 2 - Run npm install
 
 ### Step 04
@@ -60,14 +61,14 @@ If you want the supported commands for HC-05
 
 Once the baud rate is properly set, Upload code file in the repository named 'StandardFirmata.ino' to the Ardiuno board.. If you don't do this it might seems that your bluetooth module is getting a connection, the light will stop blinking, but you won't be able to connect.
 
-![alt text](UploadStandardFirmata.JPG)
+![alt text](UploadStandardFirmata.jpg)
 
 ### Step 07
 #### Wire the module to the Arduino's hardware port
 
 Once the baud rate is properly set & Firmata reloaded, connect the TX and RX pins to Arduino pins 0 and 1 (same crossover style configuration as before).
 
-![alt text](BT_module_connection_2.JPG)
+![alt text](BT_module_connection_2.jpg)
 
 ### Step 08
 #### Pair the HC 05 bluetooth module with computer's bluetooth
