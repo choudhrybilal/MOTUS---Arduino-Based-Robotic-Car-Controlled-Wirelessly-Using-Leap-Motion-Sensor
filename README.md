@@ -108,6 +108,18 @@ Control Panel > Device Manager > Ports (COM & LPT) > Standard Serial Over Blueto
 
 ![alt text](Computer_BT_BPS.jpg)
 
+## Step 09
+### Leap Motion Controller Configuration with Node.js
+
+Apply the following configurations on the Leap motion controller:
+
+```diff
+Control Panel > Leap Motion Control Panel > Settings > General
+```
+
+![alt text](Leap_Motion_Settings.JPG)
+
+
 
 
 
