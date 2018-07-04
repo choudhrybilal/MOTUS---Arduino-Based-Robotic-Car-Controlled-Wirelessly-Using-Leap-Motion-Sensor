@@ -11,7 +11,7 @@ Configure the leap motion sensor using the following link below:
 https://www.leapmotion.com/setup/desktop/windows
 
 ## Step 02
-### Leap motion controller interfacing with Arduino microcontroller
+### Leap Motion Controller Interfacing with Arduino Microcontroller
 
 Getting leapmotion to talk to arduino.
 
@@ -27,20 +27,20 @@ Note: the serialport library only works with node 0.12.x
 2 - Run npm install
 
 ## Step 04
-### Connect the HC-05 bluetooth module to the Arduino for configuration
+### Connect the HC-05 Bluetooth Module to the Arduino for Configuration
 
 We will program the Arduino to send AT commands to the module to configure it via a SoftwareSerial connection. Wire the TX and RX pins of your module to your Arduino. They need wired in a crossover configuration, so from the module to the Arduino wire TX to pin 10 and RX to pin 11.
 
 ![alt text](BT_module_connection_1.JPG)
 
-Then upload the following Sketch to your Arduino which creates a connection between the Arduino's serial port and the HC-05. Modify the ROBOT_NAME (MOTUS) and the BLUETOOTH_SPEED values before uploading if you want a custom name or have changed the baudrate before. HC-05 has defaults baudrate (38400).
+Upload the Sketch 'Motus_BT_Config.ino' to your Arduino which creates a connection between the Arduino's serial port and the HC-05. Modify the ROBOT_NAME (MOTUS) and the BLUETOOTH_SPEED values before uploading if you want a custom name or have changed the baudrate before. HC-05 has defaults baudrate (38400).
 
 Note: To put the HC-05 in AT commands mode you must connect the KEY pin in an arduino pin (I use pin 9) this is because this module works different.
 
 Upload code file in the repository named 'Motus_BT_Config.ino' to the Ardiuno board.
 
 ## Step 05
-### Check configuration
+### Check Configuration
 
 The setup() function will take about 6 seconds to run. You can connect to the Arduino with Serial Monitor and you should see the following output.
 
@@ -67,14 +67,14 @@ Once the baud rate is properly set, Upload code file in the repository named 'St
 ![alt text](UploadStandardFirmata.jpg)
 
 ## Step 07
-### Wire the module to the Arduino's hardware port
+### Wire the Module to the Arduino's Hardware Port
 
 Once the baud rate is properly set & Firmata reloaded, connect the TX and RX pins to Arduino pins 0 and 1 (same crossover style configuration as before).
 
 ![alt text](BT_module_connection_2.JPG)
 
 ## Step 08
-### Pair the HC 05 bluetooth module with computer's bluetooth
+### Pair the HC 05 Bluetooth Module with Computer's Bluetooth
 
 Pair to the module from your host device, once you have paired with your bluetooth device the serial port should be visible with the ROBOT_NAME (MOTUS). It will be something like /dev/tty.ROBOT_NAME-DevB (in UNIX) and use COMX in Windows (where X is the number of the port; COM4 in my case). Use this name to tell Johnny-Five which port to use.
 
@@ -84,6 +84,11 @@ Control Panel > Settings > Bluetooth & Other Devices > More Bluetooth Options > 
 
 ![alt text](Find_COMX.jpg)
 
+Note: Adjust computer's bluetooth baudrate that you found out for your device in step 04.
+
+Control Panel > Device Manager > Ports (COM & LPT) > Standard Serial Over Bluetooth Link (COM4) : Run as Administrator > Port Settings > Bits per Seconds > '57600' - Johny Five Socket Speed
+
+![alt text](Computer_BT_BPS.jpg)
 
 
 
