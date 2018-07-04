@@ -73,7 +73,7 @@ Once the baud rate is properly set & Firmata reloaded, connect the TX and RX pin
 ### Step 08
 #### Pair the HC 05 bluetooth module with computer's bluetooth
 
-Pair to the module from your host device, once you have paired with your bluetooth device the serial port should be visible with the ROBOT_NAME (MOTUS). It will be something like /dev/tty.ROBOT_NAME-DevB (in UNIX) and use COMX in Windows (where X is the number of the port; COM4). Use this name to tell Johnny-Five which port to use
+Pair to the module from your host device, once you have paired with your bluetooth device the serial port should be visible with the ROBOT_NAME (MOTUS). It will be something like /dev/tty.ROBOT_NAME-DevB (in UNIX) and use COMX in Windows (where X is the number of the port; COM4). Use this name to tell Johnny-Five which port to use.
 
 
 
