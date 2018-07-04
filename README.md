@@ -1,1 +1,1 @@
-# MOTUS---Arduino-Based-Robotic-Car-Controlled-Wirelessly-Using-Leap-Motion-Sensor
+# MOTUS - Arduino Based Robotic Car Controlled Wirelessly Using Leap Motion Sensor
