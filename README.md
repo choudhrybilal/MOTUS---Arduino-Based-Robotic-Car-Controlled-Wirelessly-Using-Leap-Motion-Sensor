@@ -119,6 +119,18 @@ Control Panel > Leap Motion Control Panel > Settings > General
 
 ![alt text](Leap_Motion_Settings.JPG)
 
+## Step 10
+### Now Its Time To Drive MOTUS!!!
+
+
+```diff
+Run > Node.js Command Prompt > cd "DIRECTORY" > node MOTUS.js
+```
+
+ENJOY J.
+
+![alt text](MOTUS_Test.jpg)
+
 
 
 
