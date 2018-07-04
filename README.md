@@ -68,7 +68,7 @@ Once the baud rate is properly set, Upload code file in the repository named 'St
 
 Once the baud rate is properly set & Firmata reloaded, connect the TX and RX pins to Arduino pins 0 and 1 (same crossover style configuration as before).
 
-![alt text](BT_module_connection_2.jpg)
+![alt text](BT_module_connection_2.JPG)
 
 ### Step 08
 #### Pair the HC 05 bluetooth module with computer's bluetooth
