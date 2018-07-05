@@ -6,15 +6,15 @@ Motus is a robotic three wheeler vehicle with a turning mechanism controlled usi
 
 COMPONENTS:
 
-1. RC Car Chasis
-2. Leap Motion Controller
-3. Microcontroller (Arduino UNO)
-4. 2 x DC Brushless Motors
-5. 2 x Small Size Wheels
-6. Directional Wheel
-7. Micro Servo Motor (SG90)
-8. Bluetooth Module (HC-05)
-9. 12 Volts Lithium Ion Rechargeable Battery Pack 
+ 1. RC Car Chasis
+ 2. Leap Motion Controller
+ 3. Microcontroller (Arduino UNO)
+ 4. 2 x DC Brushless Motors
+ 5. 2 x Small Size Wheels
+ 6. Directional Wheel
+ 7. Micro Servo Motor (SG90)
+ 8. Bluetooth Module (HC-05)
+ 9. 12 Volts Lithium Ion Rechargeable Battery Pack 
 10. Mini Breadboard Stick
 11. Male,Female Connection Jumpers 
 
@@ -23,6 +23,8 @@ COMPONENTS:
 
 Configure the leap motion sensor using the following link below:
 https://www.leapmotion.com/setup/desktop/windows
+
+![alt text](LeapMotionController.JPG)
 
 ## Step 02
 ### Leap Motion Controller Interfacing with Arduino Microcontroller
