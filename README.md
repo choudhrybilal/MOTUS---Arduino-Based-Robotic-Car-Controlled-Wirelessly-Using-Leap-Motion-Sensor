@@ -24,7 +24,7 @@ COMPONENTS:
 Configure the leap motion sensor using the following link below:
 https://www.leapmotion.com/setup/desktop/windows
 
-![alt text](LeapMotionController.JPG)
+![alt text](LeapMotionController.jpg)
 
 ## Step 02
 ### Leap Motion Controller Interfacing with Arduino Microcontroller
