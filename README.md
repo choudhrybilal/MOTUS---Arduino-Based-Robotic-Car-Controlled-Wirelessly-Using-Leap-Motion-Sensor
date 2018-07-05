@@ -31,7 +31,7 @@ https://www.leapmotion.com/setup/desktop/windows
 
 Getting leapmotion to talk to arduino.
 
-Top level: Leapmotion makes data available via websockets on ws://127.0.0.1:6437. Node.js can parse this. There is also a Node.js library for talking to Arduino called Johnny-five. You need something called StandardFirmata which standardises commands sent between the Arduino and a host computer, which Johnny-five speaks.
+Leapmotion makes data available via websockets on ws://127.0.0.1:6437. Node.js can parse it. There is also a Node.js library for talking to Arduino called Johnny-five. You need something called StandardFirmata which standardises commands sent between the Arduino and a host computer, which Johnny-five speaks.
 
 Note: the serialport library only works with node 0.12.x
 
@@ -40,16 +40,18 @@ Note: the serialport library only works with node 0.12.x
 
 1 - Install nodejs
 
-2 - Run > cmd > ```npm install```
+2 - Arduino IDE
+
+3 - Run > cmd > ```npm install```
 
 ## Step 04
 ### Connect the HC-05 Bluetooth Module to the Arduino for Configuration
 
-We will program the Arduino to send AT commands to the module to configure it via a SoftwareSerial connection. Wire the TX and RX pins of your module to your Arduino. They need wired in a crossover configuration, so from the module to the Arduino wire TX to pin 10 and RX to pin 11.
+Program the Arduino to send AT commands to the module to configure it via a SoftwareSerial connection. Wire the TX and RX pins of your module to your Arduino. They need wired in a crossover configuration, so from the module to the Arduino wire TX to pin 10 and RX to pin 11.
 
 ![alt text](BT_module_connection_1.JPG)
 
-Upload the Sketch 'Motus_BT_Config.ino' to your Arduino which creates a connection between the Arduino's serial port and the HC-05. Modify the ROBOT_NAME (MOTUS) and the BLUETOOTH_SPEED values before uploading if you want a custom name or have changed the baudrate before. HC-05 has defaults baudrate (38400).
+Upload the Sketch 'Motus_BT_Config.ino' in the repository to the Arduino microcontroller board which creates a connection between the Arduino's serial port and the HC-05. Modify the ROBOT_NAME in the first line of the code ("MOTUS" in my case) and the BLUETOOTH_SPEED values before uploading if you want a custom name or have changed the baudrate before. HC-05 has defaults baudrate (38400).
 
 Note: To put the HC-05 in AT commands mode you must connect the KEY pin in an arduino pin (I use pin 9) this is because this module works different.
 
