@@ -40,7 +40,7 @@ Note: the serialport library only works with node 0.12.x
 
 1 - Install nodejs
 
-2 - Run ```npm install```
+2 - Run > cmd > ```npm install```
 
 ## Step 04
 ### Connect the HC-05 Bluetooth Module to the Arduino for Configuration
