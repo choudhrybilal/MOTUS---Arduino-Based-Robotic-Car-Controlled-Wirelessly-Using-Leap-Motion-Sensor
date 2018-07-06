@@ -135,7 +135,8 @@ Run > Node.js Command Prompt > cd "DIRECTORY" > node MOTUS.js
 
 ![alt text](MOTUS_Test.jpg)
 
-![alt text](youtube.JPG.jpg)
+![alt text](youtube.JPG)
+
 https://www.youtube.com/watch?v=diz37IONG7o&feature=youtu.be)
 
 
