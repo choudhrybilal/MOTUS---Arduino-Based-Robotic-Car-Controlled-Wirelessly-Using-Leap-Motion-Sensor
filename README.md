@@ -14,10 +14,10 @@ COMPONENTS:
  6. Directional Wheel
  7. Micro Servo Motor (SG90)
  8. Bluetooth Module (HC-05)
- 9. 12 Volts Lithium Ion Rechargeable Battery Pack 
-10. Mini Breadboard Stick
-11. Male,Female Connection Jumpers 
-
+ 9. 12 Volts Lithium Ion Rechargeable Battery Pack
+10. DC-DC Converter (Chopper)
+11. Mini Breadboard Stick
+12. Male,Female Connection Jumpers 
 
 ## Step 01
 
